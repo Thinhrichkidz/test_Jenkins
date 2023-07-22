@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 app.get('/about', function (req, res) {
-  res.send('Hello world');
+  res.send('Hello 123456');
 });
 app.get('/contact', function (req, res) {
-  res.send('<h1>1234567890 this is from Hanoi</h1>');
+  res.send('<h1>1234567890 this is from SG</h1>');
 });
 app.get('/', function (req, res) {
   res.send('<h1>Hura Haru Yahoo Google.com</h1>');
